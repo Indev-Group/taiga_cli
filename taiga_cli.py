@@ -5,8 +5,8 @@ from terminaltables import AsciiTable
 import click
 
 US_TIME_MAX = 4 # hours
-
 API_HOST = "" #Host address https://taiga.com/
+
 api = TaigaAPI(host=API_HOST)
 
 
