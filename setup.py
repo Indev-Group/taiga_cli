@@ -23,5 +23,10 @@ setup(name='taigacli',
           'terminaltables',
           'python-taiga',
           'click',
-          'click-plugins']
+          'click-plugins'],
+      entry_points={
+          'console_scripts': [
+              'taigacli=taigacli.cli:cli'
+          ]
+      },
 )
