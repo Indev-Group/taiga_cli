@@ -19,6 +19,11 @@ setup(name='taigacli',
       author_email='ftp27host@gmail.com',
       url='https://github.com/Indev-Group/taiga_cli',
       license='MIT',
+      packages=[
+          'taigacli',
+      ],
+      package_dir={'taigacli':
+                   'taigacli'},
       install_requires=[
           'terminaltables',
           'python-taiga',
