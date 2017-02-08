@@ -1,21 +1,23 @@
 ##Taiga CLI
 
-Install requirements:
+####Install
 
 ```
-pip install -r requirements.txt
+pip install taigacli
 ```
+
+####Setup
 
 Set up local variables in taiga_cli.py
 
 Maximum avaible points for Userstory
 ```
-US_TIME_MAX
+export US_TIME_MAX=4
 ```
 
-Address your taiga server
+Address of your taiga server
 ```
-API_HOST
+export TAIGACLI_API_HOST='https://taiga.io'
 ```
 
 ####Usage
